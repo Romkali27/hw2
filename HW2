@@ -1,0 +1,25 @@
+public class Homework1
+{
+
+ static void process1 (int [] array){
+ int min=0;int temp; int k; 
+
+  for (k=array.length-1;k>0;k--){
+  for ( int i=0;i<k;i++){
+  if (array[i]>array[i+1]){
+  temp=array[i];
+  array[i]=array[i+1];
+  array[i+1]=temp;
+  
+  }
+  }
+  }
+  }
+  public static void main (String[] args){
+    int array[]={5,3,4,1,2};
+    process1 (array); 
+    for(int i=0; i < array.length; i++){  
+    System.out.print(array[i]);  
+}
+               
+                }}
